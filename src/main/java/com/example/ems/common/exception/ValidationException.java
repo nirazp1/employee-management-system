@@ -1,0 +1,10 @@
+package com.example.ems.common.exception;
+
+import org.springframework.http.HttpStatus;
+
+public class ValidationException extends ApiException {
+
+    public ValidationException(String message) {
+        super("VALIDATION_ERROR", HttpStatus.BAD_REQUEST, message);
+    }
+}
