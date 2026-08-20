@@ -2,6 +2,12 @@
 
 A production-quality Employee Management System with a Java/Spring Boot backend and a React SPA frontend.
 
+## Screenshots
+
+### Dashboard
+
+![Dashboard](docs/screenshots/dashboard.png)
+
 ## Tech Stack
 
 Backend:
